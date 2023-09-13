@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mijn Website</title>
+</head>
+<body>
+    <h1>Vul de velden in</h1>
+    <form id="mijnForm">
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam"><br><br>
+
+        <label for="leeftijd">Leeftijd:</label>
+        <input type="number" id="leeftijd" name="leeftijd"><br><br>
+
+        <label for="beroep">Beroep:</label>
+        <input type="text" id="beroep" name="beroep"><br><br>
+
+        <label for="bedrijfsnaam">Bedrijfsnaam:</label>
+        <input type="text" id="bedrijfsnaam" name="bedrijfsnaam"><br><br>
+
+        <label for="collega">Naam van je favoriete collega:</label>
+        <input type="text" id="collega" name="collega"><br><br>
+
+        <label for="beroepcollega">Functietitel van je favoriete collega:</label>
+        <input type="text" id="beroepcollega" name="beroepcollega"><br><br>
+
+        <label for="genre">In welk genre moet het verhaal worden geschreven?</label>
+        <input type="text" id="genre" name="genre"><br><br>
+
+        <label for="hobby">Jouw favoriete hobby:</label>
+        <input type="text" id="hobby" name="hobby"><br><br>
+
+        <button type="button" id="genereerTekst">Genereer Tekst</button>
+    </form>
+
+    <div id="resultaat">
+        <h2>Resultaat:</h2>
+        <p id="lopendeTekst"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

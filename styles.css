@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #0074cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0054a3;
+}
+
+#resultaat {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#lopendeTekst {
+    font-size: 18px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+}
