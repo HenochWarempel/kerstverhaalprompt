@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const beroepcollega = document.getElementById("beroepcollega").value;
         const genre = document.getElementById("genre").value;
         
-        const tekst = `Schrijf een kerstverhaal met als hoofdpersonen ${naam}, een ${beroep} bij ${bedrijfsnaam}, en ${collega}, een ${beroepcollega} bij hetzelfde bedrijf. Dit verhaal moet zich afspelen tijdens de kersttijd en een sterk gevoel van saamhorigheid en de kerstgedachte uitstralen. Integreer echter ook een subtiel ${genre} element in het verhaal. Zorg ervoor dat het verhaal altijd eindigt met een positieve noot en een moraal die de lezers herinnert aan de ware betekenis van Kerstmis.`;
+        const tekst = `Schrijf een kerstverhaal met als hoofdpersonen ${naam}, een ${beroep} bij ${bedrijfsnaam}, en ${collega}, een ${beroepcollega} bij hetzelfde bedrijf. Dit verhaal moet zich afspelen tijdens de kersttijd en een sterk gevoel van saamhorigheid en de kerstgedachte uitstralen. Schrijf echter ook subtiel in het genre ${genre}. Zorg ervoor dat het verhaal altijd eindigt met een positieve noot en een moraal die de lezers herinnert aan de ware betekenis van Kerstmis.`;
         
         lopendeTekst.textContent = tekst;
     });
