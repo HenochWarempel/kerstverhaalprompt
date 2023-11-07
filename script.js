@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const genre = document.getElementById("genre").value;
         const hobby = document.getElementById("hobby").value;
 
-        const tekst = `Schrijf een kerstverhaal over ${naam}, die werkt als ${beroep} bij het bedrijf ${bedrijfsnaam}. Schrijf het verhaal in het genre ${genre}. Verwerk ook een bijrol voor ${collega}, die werkt als ${beroepcollega}. Benoem het bedrijf eenmalig, niet vaker. Verwerk ook ${hobby} in het verhaal.`;
+        const tekst = `Schrijf een boeiend en rond kerstverhaal over ${naam}, die werkt als ${beroep} bij het bedrijf ${bedrijfsnaam}. Verwerk ook een bijrol voor ${collega}, die werkt als ${beroepcollega}. Benoem het bedrijf eenmalig, niet vaker. Schrijf het verhaal in het genre ${genre} en zorg voor een bevredigend einde.`;
         
         lopendeTekst.textContent = tekst;
     });
