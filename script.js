@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     genereerTekstKnop.addEventListener("click", function () {
         const naam = document.getElementById("naam").value;
-        const leeftijd = document.getElementById("leeftijd").value;
         const beroep = document.getElementById("beroep").value;
         const bedrijfsnaam = document.getElementById("bedrijfsnaam").value;
         const collega = document.getElementById("collega").value;
